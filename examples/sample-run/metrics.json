@@ -1,0 +1,84 @@
+{
+ "strategy": "topology",
+ "pairwise_precision": 1.0,
+ "pairwise_recall": 1.0,
+ "pairwise_f1": 1.0,
+ "exact_groups": 1.0,
+ "root_cause_accuracy": 1.0,
+ "location_accuracy": 1.0,
+ "mean_break_error_km": 0.0,
+ "false_incidents": 0,
+ "reported_incidents": 7,
+ "true_incidents": 7,
+ "llm_calls": 21,
+ "llm_seconds": 0.0008585999994465965,
+ "fallbacks": {
+  "grouping": 0,
+  "agent": 0
+ },
+ "per_incident": [
+  {
+   "incident": "INC-01",
+   "true_cause": "FIBER_CUT",
+   "true_location": "CBL-002",
+   "group": "G-007",
+   "exact_group": true,
+   "pred_cause": "FIBER_CUT",
+   "pred_location": "CBL-002"
+  },
+  {
+   "incident": "INC-02",
+   "true_cause": "POWER_LOSS",
+   "true_location": "FEN",
+   "group": "G-010",
+   "exact_group": true,
+   "pred_cause": "POWER_LOSS",
+   "pred_location": "FEN"
+  },
+  {
+   "incident": "INC-03",
+   "true_cause": "FIBER_CUT",
+   "true_location": "CBL-015",
+   "group": "G-011",
+   "exact_group": true,
+   "pred_cause": "FIBER_CUT",
+   "pred_location": "CBL-015"
+  },
+  {
+   "incident": "INC-04",
+   "true_cause": "FIBER_CUT",
+   "true_location": "CBL-001",
+   "group": "G-012",
+   "exact_group": true,
+   "pred_cause": "FIBER_CUT",
+   "pred_location": "CBL-001"
+  },
+  {
+   "incident": "INC-05",
+   "true_cause": "PLANNED_WORK",
+   "true_location": "CBL-010",
+   "group": "G-013",
+   "exact_group": true,
+   "pred_cause": "PLANNED_WORK",
+   "pred_location": "CBL-010"
+  },
+  {
+   "incident": "INC-06",
+   "true_cause": "HARDWARE_FAILURE",
+   "true_location": "rtr-kes-01",
+   "group": "G-018",
+   "exact_group": true,
+   "pred_cause": "HARDWARE_FAILURE",
+   "pred_location": "rtr-kes-01"
+  },
+  {
+   "incident": "INC-07",
+   "true_cause": "POWER_LOSS",
+   "true_location": "HAL",
+   "group": "G-027",
+   "exact_group": true,
+   "pred_cause": "POWER_LOSS",
+   "pred_location": "HAL"
+  }
+ ]
+}

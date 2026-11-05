@@ -1,0 +1,2133 @@
+{
+ "seed": 7,
+ "start": "2026-03-09T06:00:00",
+ "end": "2026-03-09T12:00:00",
+ "topology": {
+  "sites": [
+   {
+    "code": "ARD",
+    "name": "Ardena"
+   },
+   {
+    "code": "BEL",
+    "name": "Belmora"
+   },
+   {
+    "code": "COR",
+    "name": "Corvia"
+   },
+   {
+    "code": "DAL",
+    "name": "Dalmere"
+   },
+   {
+    "code": "ELV",
+    "name": "Elvaro"
+   },
+   {
+    "code": "FEN",
+    "name": "Fenwick"
+   },
+   {
+    "code": "GAR",
+    "name": "Garvoss"
+   },
+   {
+    "code": "HAL",
+    "name": "Halden"
+   },
+   {
+    "code": "IRO",
+    "name": "Irondale"
+   },
+   {
+    "code": "JUN",
+    "name": "Junera"
+   },
+   {
+    "code": "KES",
+    "name": "Kestrel"
+   },
+   {
+    "code": "LUM",
+    "name": "Lumen Bay"
+   }
+  ],
+  "nodes": [
+   {
+    "name": "otn-ard-01",
+    "site": "ARD",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-ard-01",
+    "site": "ARD",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-ard-01",
+    "site": "ARD",
+    "kind": "power"
+   },
+   {
+    "name": "otn-bel-01",
+    "site": "BEL",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-bel-01",
+    "site": "BEL",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-bel-01",
+    "site": "BEL",
+    "kind": "power"
+   },
+   {
+    "name": "otn-cor-01",
+    "site": "COR",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-cor-01",
+    "site": "COR",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-cor-01",
+    "site": "COR",
+    "kind": "power"
+   },
+   {
+    "name": "otn-dal-01",
+    "site": "DAL",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-dal-01",
+    "site": "DAL",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-dal-01",
+    "site": "DAL",
+    "kind": "power"
+   },
+   {
+    "name": "otn-elv-01",
+    "site": "ELV",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-elv-01",
+    "site": "ELV",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-elv-01",
+    "site": "ELV",
+    "kind": "power"
+   },
+   {
+    "name": "otn-fen-01",
+    "site": "FEN",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-fen-01",
+    "site": "FEN",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-fen-01",
+    "site": "FEN",
+    "kind": "power"
+   },
+   {
+    "name": "otn-gar-01",
+    "site": "GAR",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-gar-01",
+    "site": "GAR",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-gar-01",
+    "site": "GAR",
+    "kind": "power"
+   },
+   {
+    "name": "otn-hal-01",
+    "site": "HAL",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-hal-01",
+    "site": "HAL",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-hal-01",
+    "site": "HAL",
+    "kind": "power"
+   },
+   {
+    "name": "otn-iro-01",
+    "site": "IRO",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-iro-01",
+    "site": "IRO",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-iro-01",
+    "site": "IRO",
+    "kind": "power"
+   },
+   {
+    "name": "otn-jun-01",
+    "site": "JUN",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-jun-01",
+    "site": "JUN",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-jun-01",
+    "site": "JUN",
+    "kind": "power"
+   },
+   {
+    "name": "otn-kes-01",
+    "site": "KES",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-kes-01",
+    "site": "KES",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-kes-01",
+    "site": "KES",
+    "kind": "power"
+   },
+   {
+    "name": "otn-lum-01",
+    "site": "LUM",
+    "kind": "otn"
+   },
+   {
+    "name": "rtr-lum-01",
+    "site": "LUM",
+    "kind": "router"
+   },
+   {
+    "name": "pwr-lum-01",
+    "site": "LUM",
+    "kind": "power"
+   }
+  ],
+  "spans": [
+   {
+    "span_id": "SPN-001-1",
+    "cable_id": "CBL-001",
+    "a_node": "otn-ard-01",
+    "a_port": "OTS-1",
+    "a_site": "ARD",
+    "z_node": "otn-bel-01",
+    "z_port": "OTS-1",
+    "z_site": "BEL",
+    "length_km": 35.6
+   },
+   {
+    "span_id": "SPN-002-1",
+    "cable_id": "CBL-002",
+    "a_node": "otn-bel-01",
+    "a_port": "OTS-2",
+    "a_site": "BEL",
+    "z_node": "otn-cor-01",
+    "z_port": "OTS-1",
+    "z_site": "COR",
+    "length_km": 42.1
+   },
+   {
+    "span_id": "SPN-003-1",
+    "cable_id": "CBL-003",
+    "a_node": "otn-cor-01",
+    "a_port": "OTS-2",
+    "a_site": "COR",
+    "z_node": "otn-dal-01",
+    "z_port": "OTS-1",
+    "z_site": "DAL",
+    "length_km": 30.1
+   },
+   {
+    "span_id": "SPN-004-1",
+    "cable_id": "CBL-004",
+    "a_node": "otn-dal-01",
+    "a_port": "OTS-2",
+    "a_site": "DAL",
+    "z_node": "otn-elv-01",
+    "z_port": "OTS-1",
+    "z_site": "ELV",
+    "length_km": 20.8
+   },
+   {
+    "span_id": "SPN-005-1",
+    "cable_id": "CBL-005",
+    "a_node": "otn-elv-01",
+    "a_port": "OTS-2",
+    "a_site": "ELV",
+    "z_node": "otn-fen-01",
+    "z_port": "OTS-1",
+    "z_site": "FEN",
+    "length_km": 47.7
+   },
+   {
+    "span_id": "SPN-005-2",
+    "cable_id": "CBL-005",
+    "a_node": "otn-elv-01",
+    "a_port": "OTS-3",
+    "a_site": "ELV",
+    "z_node": "otn-fen-01",
+    "z_port": "OTS-2",
+    "z_site": "FEN",
+    "length_km": 47.7
+   },
+   {
+    "span_id": "SPN-006-1",
+    "cable_id": "CBL-006",
+    "a_node": "otn-fen-01",
+    "a_port": "OTS-3",
+    "a_site": "FEN",
+    "z_node": "otn-gar-01",
+    "z_port": "OTS-1",
+    "z_site": "GAR",
+    "length_km": 31.7
+   },
+   {
+    "span_id": "SPN-007-1",
+    "cable_id": "CBL-007",
+    "a_node": "otn-gar-01",
+    "a_port": "OTS-2",
+    "a_site": "GAR",
+    "z_node": "otn-hal-01",
+    "z_port": "OTS-1",
+    "z_site": "HAL",
+    "length_km": 20.1
+   },
+   {
+    "span_id": "SPN-008-1",
+    "cable_id": "CBL-008",
+    "a_node": "otn-hal-01",
+    "a_port": "OTS-2",
+    "a_site": "HAL",
+    "z_node": "otn-iro-01",
+    "z_port": "OTS-1",
+    "z_site": "IRO",
+    "length_km": 32.7
+   },
+   {
+    "span_id": "SPN-008-2",
+    "cable_id": "CBL-008",
+    "a_node": "otn-hal-01",
+    "a_port": "OTS-3",
+    "a_site": "HAL",
+    "z_node": "otn-iro-01",
+    "z_port": "OTS-2",
+    "z_site": "IRO",
+    "length_km": 32.7
+   },
+   {
+    "span_id": "SPN-009-1",
+    "cable_id": "CBL-009",
+    "a_node": "otn-iro-01",
+    "a_port": "OTS-3",
+    "a_site": "IRO",
+    "z_node": "otn-jun-01",
+    "z_port": "OTS-1",
+    "z_site": "JUN",
+    "length_km": 56.3
+   },
+   {
+    "span_id": "SPN-010-1",
+    "cable_id": "CBL-010",
+    "a_node": "otn-jun-01",
+    "a_port": "OTS-2",
+    "a_site": "JUN",
+    "z_node": "otn-kes-01",
+    "z_port": "OTS-1",
+    "z_site": "KES",
+    "length_km": 8.3
+   },
+   {
+    "span_id": "SPN-011-1",
+    "cable_id": "CBL-011",
+    "a_node": "otn-kes-01",
+    "a_port": "OTS-2",
+    "a_site": "KES",
+    "z_node": "otn-lum-01",
+    "z_port": "OTS-1",
+    "z_site": "LUM",
+    "length_km": 23.0
+   },
+   {
+    "span_id": "SPN-012-1",
+    "cable_id": "CBL-012",
+    "a_node": "otn-lum-01",
+    "a_port": "OTS-2",
+    "a_site": "LUM",
+    "z_node": "otn-ard-01",
+    "z_port": "OTS-2",
+    "z_site": "ARD",
+    "length_km": 36.5
+   },
+   {
+    "span_id": "SPN-013-1",
+    "cable_id": "CBL-013",
+    "a_node": "otn-gar-01",
+    "a_port": "OTS-3",
+    "a_site": "GAR",
+    "z_node": "otn-lum-01",
+    "z_port": "OTS-3",
+    "z_site": "LUM",
+    "length_km": 56.9
+   },
+   {
+    "span_id": "SPN-014-1",
+    "cable_id": "CBL-014",
+    "a_node": "otn-fen-01",
+    "a_port": "OTS-4",
+    "a_site": "FEN",
+    "z_node": "otn-kes-01",
+    "z_port": "OTS-3",
+    "z_site": "KES",
+    "length_km": 7.6
+   },
+   {
+    "span_id": "SPN-015-1",
+    "cable_id": "CBL-015",
+    "a_node": "otn-ard-01",
+    "a_port": "OTS-3",
+    "a_site": "ARD",
+    "z_node": "otn-cor-01",
+    "z_port": "OTS-3",
+    "z_site": "COR",
+    "length_km": 40.2
+   }
+  ],
+  "ip_links": [
+   {
+    "link_id": "LNK-001",
+    "a_node": "rtr-ard-01",
+    "a_port": "Gi0/0/0",
+    "z_node": "rtr-bel-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-001-1"
+    ]
+   },
+   {
+    "link_id": "LNK-002",
+    "a_node": "rtr-bel-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-cor-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-002-1"
+    ]
+   },
+   {
+    "link_id": "LNK-003",
+    "a_node": "rtr-cor-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-dal-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-003-1"
+    ]
+   },
+   {
+    "link_id": "LNK-004",
+    "a_node": "rtr-dal-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-elv-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-004-1"
+    ]
+   },
+   {
+    "link_id": "LNK-005",
+    "a_node": "rtr-dal-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-elv-01",
+    "z_port": "Gi0/0/1",
+    "span_ids": [
+     "SPN-004-1"
+    ]
+   },
+   {
+    "link_id": "LNK-006",
+    "a_node": "rtr-elv-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-fen-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-005-1"
+    ]
+   },
+   {
+    "link_id": "LNK-007",
+    "a_node": "rtr-elv-01",
+    "a_port": "Gi0/0/3",
+    "z_node": "rtr-fen-01",
+    "z_port": "Gi0/0/1",
+    "span_ids": [
+     "SPN-005-2"
+    ]
+   },
+   {
+    "link_id": "LNK-008",
+    "a_node": "rtr-elv-01",
+    "a_port": "Gi0/1/0",
+    "z_node": "rtr-fen-01",
+    "z_port": "Gi0/0/2",
+    "span_ids": [
+     "SPN-005-2"
+    ]
+   },
+   {
+    "link_id": "LNK-009",
+    "a_node": "rtr-fen-01",
+    "a_port": "Gi0/0/3",
+    "z_node": "rtr-gar-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-006-1"
+    ]
+   },
+   {
+    "link_id": "LNK-010",
+    "a_node": "rtr-gar-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-hal-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-007-1"
+    ]
+   },
+   {
+    "link_id": "LNK-011",
+    "a_node": "rtr-hal-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-iro-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-008-1"
+    ]
+   },
+   {
+    "link_id": "LNK-012",
+    "a_node": "rtr-hal-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-iro-01",
+    "z_port": "Gi0/0/1",
+    "span_ids": [
+     "SPN-008-2"
+    ]
+   },
+   {
+    "link_id": "LNK-013",
+    "a_node": "rtr-iro-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-jun-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-009-1"
+    ]
+   },
+   {
+    "link_id": "LNK-014",
+    "a_node": "rtr-iro-01",
+    "a_port": "Gi0/0/3",
+    "z_node": "rtr-jun-01",
+    "z_port": "Gi0/0/1",
+    "span_ids": [
+     "SPN-009-1"
+    ]
+   },
+   {
+    "link_id": "LNK-015",
+    "a_node": "rtr-jun-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-kes-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-010-1"
+    ]
+   },
+   {
+    "link_id": "LNK-016",
+    "a_node": "rtr-kes-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-lum-01",
+    "z_port": "Gi0/0/0",
+    "span_ids": [
+     "SPN-011-1"
+    ]
+   },
+   {
+    "link_id": "LNK-017",
+    "a_node": "rtr-lum-01",
+    "a_port": "Gi0/0/1",
+    "z_node": "rtr-ard-01",
+    "z_port": "Gi0/0/1",
+    "span_ids": [
+     "SPN-012-1"
+    ]
+   },
+   {
+    "link_id": "LNK-018",
+    "a_node": "rtr-gar-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-lum-01",
+    "z_port": "Gi0/0/2",
+    "span_ids": [
+     "SPN-013-1"
+    ]
+   },
+   {
+    "link_id": "LNK-019",
+    "a_node": "rtr-gar-01",
+    "a_port": "Gi0/0/3",
+    "z_node": "rtr-lum-01",
+    "z_port": "Gi0/0/3",
+    "span_ids": [
+     "SPN-013-1"
+    ]
+   },
+   {
+    "link_id": "LNK-020",
+    "a_node": "rtr-fen-01",
+    "a_port": "Gi0/1/0",
+    "z_node": "rtr-kes-01",
+    "z_port": "Gi0/0/2",
+    "span_ids": [
+     "SPN-014-1"
+    ]
+   },
+   {
+    "link_id": "LNK-021",
+    "a_node": "rtr-ard-01",
+    "a_port": "Gi0/0/2",
+    "z_node": "rtr-cor-01",
+    "z_port": "Gi0/0/2",
+    "span_ids": [
+     "SPN-015-1"
+    ]
+   }
+  ]
+ },
+ "world": {
+  "cuts": [
+   {
+    "cable_id": "CBL-001",
+    "start": "2026-03-09T07:00:06.517862",
+    "end": null,
+    "break_km": 9.08
+   },
+   {
+    "cable_id": "CBL-002",
+    "start": "2026-03-09T06:43:11.331517",
+    "end": null,
+    "break_km": 4.46
+   },
+   {
+    "cable_id": "CBL-015",
+    "start": "2026-03-09T06:59:34.961130",
+    "end": null,
+    "break_km": 21.82
+   },
+   {
+    "cable_id": "CBL-010",
+    "start": "2026-03-09T07:05:06.080959",
+    "end": "2026-03-09T08:35:06.080959",
+    "break_km": 6.3
+   }
+  ],
+  "outages": [
+   {
+    "site": "FEN",
+    "start": "2026-03-09T06:59:09.995480",
+    "end": "2026-03-09T07:59:20.491552",
+    "battery_minutes": 32.0
+   },
+   {
+    "site": "HAL",
+    "start": "2026-03-09T09:08:29.875638",
+    "end": "2026-03-09T09:22:15.096505",
+    "battery_minutes": 280.9
+   }
+  ],
+  "card_failures": [
+   {
+    "node": "rtr-kes-01",
+    "slot": 0,
+    "start": "2026-03-09T07:52:52.911812"
+   }
+  ],
+  "maintenance": [
+   {
+    "window_id": "MW-001",
+    "target": "CBL-010",
+    "start": "2026-03-09T06:45:06.080959",
+    "end": "2026-03-09T09:05:06.080959",
+    "description": "Planned splicing works on CBL-010"
+   },
+   {
+    "window_id": "MW-900",
+    "target": "CBL-003",
+    "start": "2026-03-09T10:10:12.586540",
+    "end": "2026-03-09T11:10:12.586540",
+    "description": "Cable inspection on CBL-003"
+   }
+  ],
+  "history": {
+   "otn-ard-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 2
+   },
+   "rtr-ard-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 2,
+    "LINK_FLAP": 20
+   },
+   "pwr-ard-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-bel-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-bel-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 2
+   },
+   "pwr-bel-01": {
+    "LOGIN_FAILURE": 0,
+    "HIGH_TEMPERATURE": 1
+   },
+   "otn-cor-01": {
+    "LOGIN_FAILURE": 0,
+    "HIGH_TEMPERATURE": 0
+   },
+   "rtr-cor-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 0
+   },
+   "pwr-cor-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 1
+   },
+   "otn-dal-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-dal-01": {
+    "LOGIN_FAILURE": 0,
+    "HIGH_TEMPERATURE": 0
+   },
+   "pwr-dal-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "otn-elv-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 0
+   },
+   "rtr-elv-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 2
+   },
+   "pwr-elv-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 2
+   },
+   "otn-fen-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-fen-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 0,
+    "LINK_FLAP": 15
+   },
+   "pwr-fen-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-gar-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 0
+   },
+   "rtr-gar-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 2
+   },
+   "pwr-gar-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-hal-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 2
+   },
+   "rtr-hal-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 1
+   },
+   "pwr-hal-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-iro-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-iro-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 2
+   },
+   "pwr-iro-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-jun-01": {
+    "LOGIN_FAILURE": 0,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-jun-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "pwr-jun-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 1
+   },
+   "otn-kes-01": {
+    "LOGIN_FAILURE": 0,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-kes-01": {
+    "LOGIN_FAILURE": 3,
+    "HIGH_TEMPERATURE": 0
+   },
+   "pwr-kes-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 0
+   },
+   "otn-lum-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 1
+   },
+   "rtr-lum-01": {
+    "LOGIN_FAILURE": 1,
+    "HIGH_TEMPERATURE": 0
+   },
+   "pwr-lum-01": {
+    "LOGIN_FAILURE": 2,
+    "HIGH_TEMPERATURE": 2
+   }
+  }
+ },
+ "alarms": [
+  {
+   "alarm_id": "ALM-00001",
+   "raised_at": "2026-03-09T06:10:01",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-003-1",
+   "details": {
+    "rx_dbm": "-21.8"
+   }
+  },
+  {
+   "alarm_id": "ALM-00002",
+   "raised_at": "2026-03-09T06:14:15",
+   "source": "optical",
+   "site": "HAL",
+   "node": "otn-hal-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-008-1",
+   "details": {
+    "rx_dbm": "-20.2"
+   }
+  },
+  {
+   "alarm_id": "ALM-00003",
+   "raised_at": "2026-03-09T06:22:13",
+   "source": "ip",
+   "site": "IRO",
+   "node": "rtr-iro-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "7"
+   }
+  },
+  {
+   "alarm_id": "ALM-00004",
+   "raised_at": "2026-03-09T06:26:04",
+   "source": "ip",
+   "site": "ARD",
+   "node": "rtr-ard-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00005",
+   "raised_at": "2026-03-09T06:33:11",
+   "source": "optical",
+   "site": "FEN",
+   "node": "otn-fen-01",
+   "name": "FAN_SPEED_LOW",
+   "severity": "WARNING",
+   "resource": "fan-2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00006",
+   "raised_at": "2026-03-09T06:36:59",
+   "source": "ip",
+   "site": "COR",
+   "node": "rtr-cor-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "6"
+   }
+  },
+  {
+   "alarm_id": "ALM-00007",
+   "raised_at": "2026-03-09T06:43:16",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-002-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00008",
+   "raised_at": "2026-03-09T06:43:18",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-2",
+   "span_id": "SPN-002-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00009",
+   "raised_at": "2026-03-09T06:43:21",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-1",
+   "span_id": "SPN-002-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00010",
+   "raised_at": "2026-03-09T06:43:34",
+   "source": "ip",
+   "site": "BEL",
+   "node": "rtr-bel-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/1",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00011",
+   "raised_at": "2026-03-09T06:43:45",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-002-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00012",
+   "raised_at": "2026-03-09T06:44:02",
+   "source": "optical",
+   "site": "JUN",
+   "node": "otn-jun-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-010-1",
+   "details": {
+    "rx_dbm": "-23.3"
+   }
+  },
+  {
+   "alarm_id": "ALM-00013",
+   "raised_at": "2026-03-09T06:45:34",
+   "source": "ip",
+   "site": "COR",
+   "node": "rtr-cor-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00014",
+   "raised_at": "2026-03-09T06:50:57",
+   "source": "ip",
+   "site": "BEL",
+   "node": "rtr-bel-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "7"
+   }
+  },
+  {
+   "alarm_id": "ALM-00015",
+   "raised_at": "2026-03-09T06:53:24",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "FIBER_BREAK_LOCATED",
+   "severity": "CRITICAL",
+   "resource": "OTS-2",
+   "span_id": "SPN-002-1",
+   "details": {
+    "distance_km": "4.46",
+    "related_alarm": "ALM-00008"
+   }
+  },
+  {
+   "alarm_id": "ALM-00016",
+   "raised_at": "2026-03-09T06:59:09",
+   "source": "power",
+   "site": "FEN",
+   "node": "pwr-fen-01",
+   "name": "MAINS_FAILURE",
+   "severity": "CRITICAL",
+   "resource": "AC-IN",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00017",
+   "raised_at": "2026-03-09T06:59:22",
+   "source": "power",
+   "site": "FEN",
+   "node": "pwr-fen-01",
+   "name": "BATTERY_DISCHARGE",
+   "severity": "MAJOR",
+   "resource": "BATT",
+   "span_id": null,
+   "details": {
+    "battery_voltage": "52.1"
+   }
+  },
+  {
+   "alarm_id": "ALM-00018",
+   "raised_at": "2026-03-09T06:59:35",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00019",
+   "raised_at": "2026-03-09T06:59:45",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00020",
+   "raised_at": "2026-03-09T07:00:10",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00021",
+   "raised_at": "2026-03-09T07:00:13",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-001-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00022",
+   "raised_at": "2026-03-09T07:00:13",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-001-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00023",
+   "raised_at": "2026-03-09T07:00:14",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00024",
+   "raised_at": "2026-03-09T07:00:15",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-1",
+   "span_id": "SPN-001-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00025",
+   "raised_at": "2026-03-09T07:00:28",
+   "source": "ip",
+   "site": "COR",
+   "node": "rtr-cor-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00026",
+   "raised_at": "2026-03-09T07:00:41",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-1",
+   "span_id": "SPN-001-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00027",
+   "raised_at": "2026-03-09T07:01:25",
+   "source": "ip",
+   "site": "ARD",
+   "node": "rtr-ard-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00028",
+   "raised_at": "2026-03-09T07:01:27",
+   "source": "ip",
+   "site": "BEL",
+   "node": "rtr-bel-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00029",
+   "raised_at": "2026-03-09T07:02:35",
+   "source": "ip",
+   "site": "ARD",
+   "node": "rtr-ard-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00030",
+   "raised_at": "2026-03-09T07:05:16",
+   "source": "optical",
+   "site": "JUN",
+   "node": "otn-jun-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-2",
+   "span_id": "SPN-010-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00031",
+   "raised_at": "2026-03-09T07:05:18",
+   "source": "optical",
+   "site": "KES",
+   "node": "otn-kes-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-1",
+   "span_id": "SPN-010-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00032",
+   "raised_at": "2026-03-09T07:05:21",
+   "source": "optical",
+   "site": "KES",
+   "node": "otn-kes-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-010-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00033",
+   "raised_at": "2026-03-09T07:05:22",
+   "source": "optical",
+   "site": "JUN",
+   "node": "otn-jun-01",
+   "name": "OSC_LOS",
+   "severity": "MAJOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-010-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00034",
+   "raised_at": "2026-03-09T07:05:55",
+   "source": "optical",
+   "site": "COR",
+   "node": "otn-cor-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "48"
+   }
+  },
+  {
+   "alarm_id": "ALM-00035",
+   "raised_at": "2026-03-09T07:07:11",
+   "source": "ip",
+   "site": "JUN",
+   "node": "rtr-jun-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00036",
+   "raised_at": "2026-03-09T07:07:34",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00037",
+   "raised_at": "2026-03-09T07:08:30",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "FIBER_BREAK_LOCATED",
+   "severity": "CRITICAL",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {
+    "distance_km": "21.82",
+    "related_alarm": "ALM-00018"
+   }
+  },
+  {
+   "alarm_id": "ALM-00038",
+   "raised_at": "2026-03-09T07:09:58",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "FIBER_BREAK_LOCATED",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-001-1",
+   "details": {
+    "distance_km": "9.08",
+    "related_alarm": "ALM-00021"
+   }
+  },
+  {
+   "alarm_id": "ALM-00039",
+   "raised_at": "2026-03-09T07:25:09",
+   "source": "power",
+   "site": "FEN",
+   "node": "pwr-fen-01",
+   "name": "LOW_BATTERY_VOLTAGE",
+   "severity": "CRITICAL",
+   "resource": "BATT",
+   "span_id": null,
+   "details": {
+    "battery_voltage": "46.2"
+   }
+  },
+  {
+   "alarm_id": "ALM-00040",
+   "raised_at": "2026-03-09T07:30:39",
+   "source": "ip",
+   "site": "DAL",
+   "node": "rtr-dal-01",
+   "name": "FAN_SPEED_LOW",
+   "severity": "WARNING",
+   "resource": "fan-2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00041",
+   "raised_at": "2026-03-09T07:31:13",
+   "source": "optical",
+   "site": "FEN",
+   "node": "otn-fen-01",
+   "name": "NODE_UNREACHABLE",
+   "severity": "CRITICAL",
+   "resource": null,
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00042",
+   "raised_at": "2026-03-09T07:31:20",
+   "source": "ip",
+   "site": "FEN",
+   "node": "rtr-fen-01",
+   "name": "NODE_UNREACHABLE",
+   "severity": "CRITICAL",
+   "resource": null,
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00043",
+   "raised_at": "2026-03-09T07:31:23",
+   "source": "optical",
+   "site": "ELV",
+   "node": "otn-elv-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-3",
+   "span_id": "SPN-005-2",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00044",
+   "raised_at": "2026-03-09T07:31:38",
+   "source": "optical",
+   "site": "ELV",
+   "node": "otn-elv-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-2",
+   "span_id": "SPN-005-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00045",
+   "raised_at": "2026-03-09T07:31:38",
+   "source": "optical",
+   "site": "GAR",
+   "node": "otn-gar-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-1",
+   "span_id": "SPN-006-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00046",
+   "raised_at": "2026-03-09T07:31:39",
+   "source": "optical",
+   "site": "KES",
+   "node": "otn-kes-01",
+   "name": "OPTICAL_LOS",
+   "severity": "CRITICAL",
+   "resource": "OTS-3",
+   "span_id": "SPN-014-1",
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00047",
+   "raised_at": "2026-03-09T07:31:41",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00048",
+   "raised_at": "2026-03-09T07:31:44",
+   "source": "ip",
+   "site": "ELV",
+   "node": "rtr-elv-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/1/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00049",
+   "raised_at": "2026-03-09T07:31:44",
+   "source": "ip",
+   "site": "GAR",
+   "node": "rtr-gar-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00050",
+   "raised_at": "2026-03-09T07:32:00",
+   "source": "ip",
+   "site": "ELV",
+   "node": "rtr-elv-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/3",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00051",
+   "raised_at": "2026-03-09T07:33:05",
+   "source": "ip",
+   "site": "ELV",
+   "node": "rtr-elv-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00052",
+   "raised_at": "2026-03-09T07:39:41",
+   "source": "optical",
+   "site": "ARD",
+   "node": "otn-ard-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-3",
+   "span_id": "SPN-015-1",
+   "details": {
+    "rx_dbm": "-21.7"
+   }
+  },
+  {
+   "alarm_id": "ALM-00053",
+   "raised_at": "2026-03-09T07:40:27",
+   "source": "optical",
+   "site": "ELV",
+   "node": "otn-elv-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-3",
+   "span_id": "SPN-005-2",
+   "details": {
+    "rx_dbm": "-21.9"
+   }
+  },
+  {
+   "alarm_id": "ALM-00054",
+   "raised_at": "2026-03-09T07:52:52",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "CARD_FAILURE",
+   "severity": "CRITICAL",
+   "resource": "slot 0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00055",
+   "raised_at": "2026-03-09T07:52:54",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00056",
+   "raised_at": "2026-03-09T07:52:54",
+   "source": "ip",
+   "site": "FEN",
+   "node": "rtr-fen-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/1/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00057",
+   "raised_at": "2026-03-09T07:52:56",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/1",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00058",
+   "raised_at": "2026-03-09T07:53:00",
+   "source": "ip",
+   "site": "LUM",
+   "node": "rtr-lum-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00059",
+   "raised_at": "2026-03-09T07:53:01",
+   "source": "ip",
+   "site": "JUN",
+   "node": "rtr-jun-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00060",
+   "raised_at": "2026-03-09T07:53:01",
+   "source": "ip",
+   "site": "KES",
+   "node": "rtr-kes-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00061",
+   "raised_at": "2026-03-09T08:23:22",
+   "source": "ip",
+   "site": "ELV",
+   "node": "rtr-elv-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/1/0",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "5"
+   }
+  },
+  {
+   "alarm_id": "ALM-00062",
+   "raised_at": "2026-03-09T08:29:59",
+   "source": "ip",
+   "site": "HAL",
+   "node": "rtr-hal-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/1",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "3"
+   }
+  },
+  {
+   "alarm_id": "ALM-00063",
+   "raised_at": "2026-03-09T08:30:50",
+   "source": "power",
+   "site": "LUM",
+   "node": "pwr-lum-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "51"
+   }
+  },
+  {
+   "alarm_id": "ALM-00064",
+   "raised_at": "2026-03-09T08:34:12",
+   "source": "power",
+   "site": "ELV",
+   "node": "pwr-elv-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "58"
+   }
+  },
+  {
+   "alarm_id": "ALM-00065",
+   "raised_at": "2026-03-09T08:36:12",
+   "source": "ip",
+   "site": "BEL",
+   "node": "rtr-bel-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "9"
+   }
+  },
+  {
+   "alarm_id": "ALM-00066",
+   "raised_at": "2026-03-09T08:42:50",
+   "source": "ip",
+   "site": "LUM",
+   "node": "rtr-lum-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "3"
+   }
+  },
+  {
+   "alarm_id": "ALM-00067",
+   "raised_at": "2026-03-09T08:53:41",
+   "source": "optical",
+   "site": "BEL",
+   "node": "otn-bel-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-002-1",
+   "details": {
+    "rx_dbm": "-22.8"
+   }
+  },
+  {
+   "alarm_id": "ALM-00068",
+   "raised_at": "2026-03-09T09:08:27",
+   "source": "optical",
+   "site": "HAL",
+   "node": "otn-hal-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "58"
+   }
+  },
+  {
+   "alarm_id": "ALM-00069",
+   "raised_at": "2026-03-09T09:08:29",
+   "source": "power",
+   "site": "HAL",
+   "node": "pwr-hal-01",
+   "name": "MAINS_FAILURE",
+   "severity": "CRITICAL",
+   "resource": "AC-IN",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00070",
+   "raised_at": "2026-03-09T09:09:51",
+   "source": "power",
+   "site": "HAL",
+   "node": "pwr-hal-01",
+   "name": "BATTERY_DISCHARGE",
+   "severity": "MAJOR",
+   "resource": "BATT",
+   "span_id": null,
+   "details": {
+    "battery_voltage": "52.1"
+   }
+  },
+  {
+   "alarm_id": "ALM-00071",
+   "raised_at": "2026-03-09T09:13:10",
+   "source": "ip",
+   "site": "LUM",
+   "node": "rtr-lum-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "2"
+   }
+  },
+  {
+   "alarm_id": "ALM-00072",
+   "raised_at": "2026-03-09T09:17:22",
+   "source": "power",
+   "site": "LUM",
+   "node": "pwr-lum-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "56"
+   }
+  },
+  {
+   "alarm_id": "ALM-00073",
+   "raised_at": "2026-03-09T09:19:27",
+   "source": "ip",
+   "site": "ARD",
+   "node": "rtr-ard-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/0",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "6"
+   }
+  },
+  {
+   "alarm_id": "ALM-00074",
+   "raised_at": "2026-03-09T09:40:30",
+   "source": "ip",
+   "site": "LUM",
+   "node": "rtr-lum-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/1",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "4"
+   }
+  },
+  {
+   "alarm_id": "ALM-00075",
+   "raised_at": "2026-03-09T09:44:36",
+   "source": "ip",
+   "site": "COR",
+   "node": "rtr-cor-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/1",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "3"
+   }
+  },
+  {
+   "alarm_id": "ALM-00076",
+   "raised_at": "2026-03-09T09:56:36",
+   "source": "ip",
+   "site": "IRO",
+   "node": "rtr-iro-01",
+   "name": "FAN_SPEED_LOW",
+   "severity": "WARNING",
+   "resource": "fan-2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00077",
+   "raised_at": "2026-03-09T10:11:43",
+   "source": "optical",
+   "site": "HAL",
+   "node": "otn-hal-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-008-1",
+   "details": {
+    "rx_dbm": "-19.4"
+   }
+  },
+  {
+   "alarm_id": "ALM-00078",
+   "raised_at": "2026-03-09T10:27:36",
+   "source": "power",
+   "site": "COR",
+   "node": "pwr-cor-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "48"
+   }
+  },
+  {
+   "alarm_id": "ALM-00079",
+   "raised_at": "2026-03-09T10:34:55",
+   "source": "ip",
+   "site": "IRO",
+   "node": "rtr-iro-01",
+   "name": "FAN_SPEED_LOW",
+   "severity": "WARNING",
+   "resource": "fan-2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00080",
+   "raised_at": "2026-03-09T10:50:20",
+   "source": "power",
+   "site": "JUN",
+   "node": "pwr-jun-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "53"
+   }
+  },
+  {
+   "alarm_id": "ALM-00081",
+   "raised_at": "2026-03-09T10:55:07",
+   "source": "optical",
+   "site": "HAL",
+   "node": "otn-hal-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-008-1",
+   "details": {
+    "rx_dbm": "-22.0"
+   }
+  },
+  {
+   "alarm_id": "ALM-00082",
+   "raised_at": "2026-03-09T10:57:46",
+   "source": "optical",
+   "site": "ELV",
+   "node": "otn-elv-01",
+   "name": "OPTICAL_POWER_LOW",
+   "severity": "MINOR",
+   "resource": "OTS-2",
+   "span_id": "SPN-005-1",
+   "details": {
+    "rx_dbm": "-21.3"
+   }
+  },
+  {
+   "alarm_id": "ALM-00083",
+   "raised_at": "2026-03-09T11:17:49",
+   "source": "ip",
+   "site": "FEN",
+   "node": "rtr-fen-01",
+   "name": "LINK_DOWN",
+   "severity": "MAJOR",
+   "resource": "Gi0/0/2",
+   "span_id": null,
+   "details": {}
+  },
+  {
+   "alarm_id": "ALM-00084",
+   "raised_at": "2026-03-09T11:21:23",
+   "source": "optical",
+   "site": "HAL",
+   "node": "otn-hal-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "48"
+   }
+  },
+  {
+   "alarm_id": "ALM-00085",
+   "raised_at": "2026-03-09T11:23:10",
+   "source": "ip",
+   "site": "IRO",
+   "node": "rtr-iro-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "6"
+   }
+  },
+  {
+   "alarm_id": "ALM-00086",
+   "raised_at": "2026-03-09T11:40:37",
+   "source": "ip",
+   "site": "HAL",
+   "node": "rtr-hal-01",
+   "name": "LOGIN_FAILURE",
+   "severity": "WARNING",
+   "resource": "ssh",
+   "span_id": null,
+   "details": {
+    "attempts": "6"
+   }
+  },
+  {
+   "alarm_id": "ALM-00087",
+   "raised_at": "2026-03-09T11:49:48",
+   "source": "optical",
+   "site": "ELV",
+   "node": "otn-elv-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "50"
+   }
+  },
+  {
+   "alarm_id": "ALM-00088",
+   "raised_at": "2026-03-09T11:55:09",
+   "source": "optical",
+   "site": "DAL",
+   "node": "otn-dal-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "46"
+   }
+  },
+  {
+   "alarm_id": "ALM-00089",
+   "raised_at": "2026-03-09T11:57:31",
+   "source": "optical",
+   "site": "JUN",
+   "node": "otn-jun-01",
+   "name": "HIGH_TEMPERATURE",
+   "severity": "MINOR",
+   "resource": "sensor-1",
+   "span_id": null,
+   "details": {
+    "temperature_c": "53"
+   }
+  },
+  {
+   "alarm_id": "ALM-00090",
+   "raised_at": "2026-03-09T11:57:51",
+   "source": "ip",
+   "site": "IRO",
+   "node": "rtr-iro-01",
+   "name": "LINK_FLAP",
+   "severity": "WARNING",
+   "resource": "Gi0/0/3",
+   "span_id": null,
+   "details": {
+    "flaps_last_hour": "4"
+   }
+  }
+ ],
+ "incidents": [
+  {
+   "incident_id": "INC-01",
+   "root_cause": "FIBER_CUT",
+   "location": "CBL-002",
+   "alarm_ids": [
+    "ALM-00007",
+    "ALM-00008",
+    "ALM-00009",
+    "ALM-00010",
+    "ALM-00011",
+    "ALM-00013",
+    "ALM-00015"
+   ],
+   "started_at": "2026-03-09T06:43:11",
+   "break_km": 4.46
+  },
+  {
+   "incident_id": "INC-02",
+   "root_cause": "POWER_LOSS",
+   "location": "FEN",
+   "alarm_ids": [
+    "ALM-00016",
+    "ALM-00017",
+    "ALM-00039",
+    "ALM-00041",
+    "ALM-00042",
+    "ALM-00043",
+    "ALM-00044",
+    "ALM-00045",
+    "ALM-00046",
+    "ALM-00047",
+    "ALM-00048",
+    "ALM-00049",
+    "ALM-00050",
+    "ALM-00051"
+   ],
+   "started_at": "2026-03-09T06:59:09",
+   "break_km": null
+  },
+  {
+   "incident_id": "INC-03",
+   "root_cause": "FIBER_CUT",
+   "location": "CBL-015",
+   "alarm_ids": [
+    "ALM-00018",
+    "ALM-00019",
+    "ALM-00020",
+    "ALM-00023",
+    "ALM-00025",
+    "ALM-00027",
+    "ALM-00037"
+   ],
+   "started_at": "2026-03-09T06:59:34",
+   "break_km": 21.82
+  },
+  {
+   "incident_id": "INC-04",
+   "root_cause": "FIBER_CUT",
+   "location": "CBL-001",
+   "alarm_ids": [
+    "ALM-00021",
+    "ALM-00022",
+    "ALM-00024",
+    "ALM-00026",
+    "ALM-00028",
+    "ALM-00029",
+    "ALM-00038"
+   ],
+   "started_at": "2026-03-09T07:00:06",
+   "break_km": 9.08
+  },
+  {
+   "incident_id": "INC-05",
+   "root_cause": "PLANNED_WORK",
+   "location": "CBL-010",
+   "alarm_ids": [
+    "ALM-00030",
+    "ALM-00031",
+    "ALM-00032",
+    "ALM-00033",
+    "ALM-00035",
+    "ALM-00036"
+   ],
+   "started_at": "2026-03-09T07:05:06",
+   "break_km": null
+  },
+  {
+   "incident_id": "INC-06",
+   "root_cause": "HARDWARE_FAILURE",
+   "location": "rtr-kes-01",
+   "alarm_ids": [
+    "ALM-00054",
+    "ALM-00055",
+    "ALM-00056",
+    "ALM-00057",
+    "ALM-00058",
+    "ALM-00059",
+    "ALM-00060"
+   ],
+   "started_at": "2026-03-09T07:52:52",
+   "break_km": null
+  },
+  {
+   "incident_id": "INC-07",
+   "root_cause": "POWER_LOSS",
+   "location": "HAL",
+   "alarm_ids": [
+    "ALM-00069",
+    "ALM-00070"
+   ],
+   "started_at": "2026-03-09T09:08:29",
+   "break_km": null
+  }
+ ]
+}
